@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\5\\source\\repos\\task7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|c:\\users\\5\\source\\repos\\task7\\src\\routes\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|solutionrelative:src\\routes\\index.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|c:\\users\\5\\source\\repos\\task7\\node_modules\\tailwindcss\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|solutionrelative:node_modules\\tailwindcss\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|c:\\users\\5\\source\\repos\\task7\\node_modules\\tailwindcss\\theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|solutionrelative:node_modules\\tailwindcss\\theme.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|c:\\users\\5\\source\\repos\\task7\\src\\assets\\components\\header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|solutionrelative:src\\assets\\components\\header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|c:\\users\\5\\source\\repos\\task7\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|c:\\users\\5\\source\\repos\\task7\\src\\assets\\css\\containers.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|solutionrelative:src\\assets\\css\\containers.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Containers.css",
+              "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\src\\assets\\css\\Containers.css",
+              "RelativeDocumentMoniker": "src\\assets\\css\\Containers.css",
+              "ToolTip": "C:\\Users\\5\\source\\repos\\task7\\src\\assets\\css\\Containers.css",
+              "RelativeToolTip": "src\\assets\\css\\Containers.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-16T09:49:05.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "theme.css",
+              "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\node_modules\\tailwindcss\\theme.css",
+              "RelativeDocumentMoniker": "node_modules\\tailwindcss\\theme.css",
+              "ToolTip": "C:\\Users\\5\\source\\repos\\task7\\node_modules\\tailwindcss\\theme.css",
+              "RelativeToolTip": "node_modules\\tailwindcss\\theme.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-12T09:53:27.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\node_modules\\tailwindcss\\index.css",
+              "RelativeDocumentMoniker": "node_modules\\tailwindcss\\index.css",
+              "ToolTip": "C:\\Users\\5\\source\\repos\\task7\\node_modules\\tailwindcss\\index.css",
+              "RelativeToolTip": "node_modules\\tailwindcss\\index.css",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAwwKsBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-12T09:52:00.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.tsx",
+              "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\src\\routes\\index.tsx",
+              "RelativeDocumentMoniker": "src\\routes\\index.tsx",
+              "ToolTip": "C:\\Users\\5\\source\\repos\\task7\\src\\routes\\index.tsx",
+              "RelativeToolTip": "src\\routes\\index.tsx",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-03-12T09:00:32.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Header.tsx",
+              "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\src\\assets\\components\\Header.tsx",
+              "RelativeDocumentMoniker": "src\\assets\\components\\Header.tsx",
+              "ToolTip": "C:\\Users\\5\\source\\repos\\task7\\src\\assets\\components\\Header.tsx",
+              "RelativeToolTip": "src\\assets\\components\\Header.tsx",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-03-11T08:42:44.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\src\\index.css",
+              "RelativeDocumentMoniker": "src\\index.css",
+              "ToolTip": "C:\\Users\\5\\source\\repos\\task7\\src\\index.css",
+              "RelativeToolTip": "src\\index.css",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-11T08:30:56.163Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
