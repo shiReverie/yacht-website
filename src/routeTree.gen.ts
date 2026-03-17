@@ -10,7 +10,6 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as RentnChillRouteImport } from './routes/RentnChill'
-import { Route as LearnMoreRouteImport } from './routes/LearnMore'
 import { Route as ExcursionsRouteImport } from './routes/Excursions'
 import { Route as ContactUsRouteImport } from './routes/ContactUs'
 import { Route as AwardsRouteImport } from './routes/Awards'
@@ -19,11 +18,6 @@ import { Route as IndexRouteImport } from './routes/index'
 const RentnChillRoute = RentnChillRouteImport.update({
   id: '/RentnChill',
   path: '/RentnChill',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const LearnMoreRoute = LearnMoreRouteImport.update({
-  id: '/LearnMore',
-  path: '/LearnMore',
   getParentRoute: () => rootRouteImport,
 } as any)
 const ExcursionsRoute = ExcursionsRouteImport.update({
@@ -52,7 +46,6 @@ export interface FileRoutesByFullPath {
   '/Awards': typeof AwardsRoute
   '/ContactUs': typeof ContactUsRoute
   '/Excursions': typeof ExcursionsRoute
-  '/LearnMore': typeof LearnMoreRoute
   '/RentnChill': typeof RentnChillRoute
 }
 export interface FileRoutesByTo {
@@ -60,7 +53,6 @@ export interface FileRoutesByTo {
   '/Awards': typeof AwardsRoute
   '/ContactUs': typeof ContactUsRoute
   '/Excursions': typeof ExcursionsRoute
-  '/LearnMore': typeof LearnMoreRoute
   '/RentnChill': typeof RentnChillRoute
 }
 export interface FileRoutesById {
@@ -69,33 +61,19 @@ export interface FileRoutesById {
   '/Awards': typeof AwardsRoute
   '/ContactUs': typeof ContactUsRoute
   '/Excursions': typeof ExcursionsRoute
-  '/LearnMore': typeof LearnMoreRoute
   '/RentnChill': typeof RentnChillRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths:
-    | '/'
-    | '/Awards'
-    | '/ContactUs'
-    | '/Excursions'
-    | '/LearnMore'
-    | '/RentnChill'
+  fullPaths: '/' | '/Awards' | '/ContactUs' | '/Excursions' | '/RentnChill'
   fileRoutesByTo: FileRoutesByTo
-  to:
-    | '/'
-    | '/Awards'
-    | '/ContactUs'
-    | '/Excursions'
-    | '/LearnMore'
-    | '/RentnChill'
+  to: '/' | '/Awards' | '/ContactUs' | '/Excursions' | '/RentnChill'
   id:
     | '__root__'
     | '/'
     | '/Awards'
     | '/ContactUs'
     | '/Excursions'
-    | '/LearnMore'
     | '/RentnChill'
   fileRoutesById: FileRoutesById
 }
@@ -104,7 +82,6 @@ export interface RootRouteChildren {
   AwardsRoute: typeof AwardsRoute
   ContactUsRoute: typeof ContactUsRoute
   ExcursionsRoute: typeof ExcursionsRoute
-  LearnMoreRoute: typeof LearnMoreRoute
   RentnChillRoute: typeof RentnChillRoute
 }
 
@@ -115,13 +92,6 @@ declare module '@tanstack/react-router' {
       path: '/RentnChill'
       fullPath: '/RentnChill'
       preLoaderRoute: typeof RentnChillRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/LearnMore': {
-      id: '/LearnMore'
-      path: '/LearnMore'
-      fullPath: '/LearnMore'
-      preLoaderRoute: typeof LearnMoreRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/Excursions': {
@@ -160,7 +130,6 @@ const rootRouteChildren: RootRouteChildren = {
   AwardsRoute: AwardsRoute,
   ContactUsRoute: ContactUsRoute,
   ExcursionsRoute: ExcursionsRoute,
-  LearnMoreRoute: LearnMoreRoute,
   RentnChillRoute: RentnChillRoute,
 }
 export const routeTree = rootRouteImport
