@@ -6,3 +6,12 @@
     width: 100%;
 
 }
+
+.zoomin {
+    display: inline-block;
+    transition: ease-in-out 0.25s;
+}
+
+    .zoomin:hover {
+        transform: scale(1.1);
+    }
