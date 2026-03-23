@@ -52,7 +52,7 @@ function RouteComponent() {
                 <h1 className="pointer-events-none xs:col-start-2 xs:text-5xl xs:row-start-3 lg:col-start-7 mt-9 self-end whitespace-nowrap lg:text-8xl">
                     WE SHOW
                 </h1>
-                <hr className="w-3xl mt-18 xs:col-start-2 xs:row-start-4 lg:row-start-3 lg:col-start-15 pointer-events-none h-[2px] justify-self-start bg-white text-xl" />
+                <hr className="w-3xl mt-18 xs:col-start-2 xs:row-start-4  lg:col-start-15 pointer-events-none h-[2px] justify-self-start bg-white text-xl" />
                 <h2 className="pointer-events-none xs:col-start-2 xs:row-start-5 xs:text-md lg:col-start-13 self-end whitespace-nowrap lg:text-2xl mb-10">
                     THE COAST OF DENMARK AND <br />
                     GO FURTHER INTO THE SEA
