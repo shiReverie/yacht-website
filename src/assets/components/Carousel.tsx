@@ -1,7 +1,7 @@
 import CarouselItem from './CarouselItem.tsx'
 
 interface CarouselItemData {
-    id: number | string;
+    id: number;
     image: string;
     itemName: string;
     description: string;
