@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\5\\source\\repos\\task7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|c:\\users\\5\\source\\repos\\task7\\postcss.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|solutionrelative:postcss.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|c:\\users\\5\\source\\repos\\task7\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|c:\\users\\5\\source\\repos\\task7\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|c:\\users\\5\\source\\repos\\task7\\postcss.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|solutionrelative:postcss.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|c:\\users\\5\\source\\repos\\task7\\src\\assets\\components\\header.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
@@ -45,10 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|c:\\users\\5\\source\\repos\\task7\\src\\routes\\__root.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|solutionrelative:src\\routes\\__root.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|c:\\users\\5\\source\\repos\\task7\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{947CD688-45A1-D71B-F90F-ABB0FBF9235D}|task7.esproj|solutionrelative:src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,46 +78,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "postcss.config.js",
               "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\postcss.config.js",
               "RelativeDocumentMoniker": "postcss.config.js",
               "ToolTip": "C:\\Users\\5\\source\\repos\\task7\\postcss.config.js",
               "RelativeToolTip": "postcss.config.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2026-03-23T09:14:02.609Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\package.json",
-              "RelativeDocumentMoniker": "package.json",
-              "ToolTip": "C:\\Users\\5\\source\\repos\\task7\\package.json",
-              "RelativeToolTip": "package.json",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-23T09:12:14.848Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "vite.config.ts",
-              "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\vite.config.ts",
-              "RelativeDocumentMoniker": "vite.config.ts",
-              "ToolTip": "C:\\Users\\5\\source\\repos\\task7\\vite.config.ts",
-              "RelativeToolTip": "vite.config.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-03-23T09:03:33.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Awards.tsx",
               "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\src\\routes\\Awards.tsx",
               "RelativeDocumentMoniker": "src\\routes\\Awards.tsx",
@@ -129,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Footer.tsx",
               "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\src\\assets\\components\\Footer.tsx",
               "RelativeDocumentMoniker": "src\\assets\\components\\Footer.tsx",
@@ -137,12 +111,11 @@
               "RelativeToolTip": "src\\assets\\components\\Footer.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-03-23T07:52:47.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T07:52:47.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Carousel.tsx",
               "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\src\\assets\\components\\Carousel.tsx",
               "RelativeDocumentMoniker": "src\\assets\\components\\Carousel.tsx",
@@ -150,12 +123,11 @@
               "RelativeToolTip": "src\\assets\\components\\Carousel.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-03-23T07:46:19.277Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-23T07:46:19.277Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "__root.tsx",
               "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\src\\routes\\__root.tsx",
               "RelativeDocumentMoniker": "src\\routes\\__root.tsx",
@@ -167,7 +139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CarouselItem.tsx",
               "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\src\\assets\\components\\CarouselItem.tsx",
               "RelativeDocumentMoniker": "src\\assets\\components\\CarouselItem.tsx",
@@ -175,12 +147,11 @@
               "RelativeToolTip": "src\\assets\\components\\CarouselItem.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-03-19T09:11:09.767Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-19T09:11:09.767Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Containers.css",
               "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\src\\assets\\css\\Containers.css",
               "RelativeDocumentMoniker": "src\\assets\\css\\Containers.css",
@@ -192,7 +163,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\src\\index.css",
+              "RelativeDocumentMoniker": "src\\index.css",
+              "ToolTip": "C:\\Users\\5\\source\\repos\\task7\\src\\index.css",
+              "RelativeToolTip": "src\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-11T08:30:56.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\5\\source\\repos\\task7\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-23T09:12:14.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "vite.config.ts",
+              "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\vite.config.ts",
+              "RelativeDocumentMoniker": "vite.config.ts",
+              "ToolTip": "C:\\Users\\5\\source\\repos\\task7\\vite.config.ts",
+              "RelativeToolTip": "vite.config.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2026-03-23T09:03:33.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "index.tsx",
               "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\src\\routes\\index.tsx",
               "RelativeDocumentMoniker": "src\\routes\\index.tsx",
@@ -200,12 +209,11 @@
               "RelativeToolTip": "src\\routes\\index.tsx",
               "ViewState": "AgIAAHkAAAAAAAAAAAAuwOoAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-03-12T09:00:32.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-12T09:00:32.941Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Header.tsx",
               "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\src\\assets\\components\\Header.tsx",
               "RelativeDocumentMoniker": "src\\assets\\components\\Header.tsx",
@@ -213,20 +221,7 @@
               "RelativeToolTip": "src\\assets\\components\\Header.tsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2026-03-11T08:42:44.119Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "index.css",
-              "DocumentMoniker": "C:\\Users\\5\\source\\repos\\task7\\src\\index.css",
-              "RelativeDocumentMoniker": "src\\index.css",
-              "ToolTip": "C:\\Users\\5\\source\\repos\\task7\\src\\index.css",
-              "RelativeToolTip": "src\\index.css",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-03-11T08:30:56.163Z"
+              "WhenOpened": "2026-03-11T08:42:44.119Z"
             }
           ]
         }
