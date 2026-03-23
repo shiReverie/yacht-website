@@ -1,9 +1,16 @@
 import { createFileRoute } from '@tanstack/react-router'
+import Header from '../assets/components/Header'
+import Footer from '../assets/components/Footer'
 
 export const Route = createFileRoute('/ContactUs')({
   component: RouteComponent,
 })
 
 function RouteComponent() {
-  return <div>Hello "/ContactUs"!</div>
+    return (
+        <>
+            <Header></Header>
+            <Footer></Footer>
+        </>
+    )
 }

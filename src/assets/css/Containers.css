@@ -3,15 +3,29 @@
     background-image: url("../../../public/yacht1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 200%;
 
 }
 
-.zoomin {
-    display: inline-block;
-    transition: ease-in-out 0.25s;
-}
 
-    .zoomin:hover {
-        transform: scale(1.1);
+    .zoomin {
+        display: inline-block;
+        transition: ease-in-out 0.25s;
     }
+
+        .zoomin:hover {
+            transform: scale(1.1);
+        }
+
+
+@media (min-width: 640px) and (max-width: 768px) {
+    .headerContainer {
+        width: 250%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 639px) {
+    .headerContainer {
+        width: 400%;
+    }
+}
