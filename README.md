@@ -1,73 +1,49 @@
-# React + TypeScript + Vite
+# dwra
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Functionality
+* Navigation
+* Fetching data from DummyJson
 
-Currently, two official plugins are available:
+## Dependencies
+### General
+* "@tailwindcss/vite": "^4.2.1",
+* "@tanstack/react-query": "^5.90.21",
+* "@tanstack/react-router": "^1.166.7",
+* "@tanstack/react-router-devtools": "^1.166.7",
+* "react": "^19.2.0",
+* "react-dom": "^19.2.0"
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### For developers
+* "@eslint/js": "^9.39.1",
+* "@tailwindcss/postcss": "^4.2.2",
+* "@tanstack/router-plugin": "^1.166.7",
+* "@types/node": "^24.10.1",
+* "@types/react": "^19.2.7",
+* "@types/react-dom": "^19.2.3",
+* "@vitejs/plugin-react": "^5.1.1",
+* "autoprefixer": "^10.4.27",
+* "eslint": "^9.39.1",
+* "eslint-plugin-react-hooks": "^7.0.1",
+* "eslint-plugin-react-refresh": "^0.4.24",
+* "globals": "^16.5.0",
+* "postcss": "^8.5.8",
+* "tailwindcss": "^4.2.1",
+* "typescript": "~5.9.3",
+* "typescript-eslint": "^8.48.0",
+* "vite": "^7.3.1"
 
-## React Compiler
+## Launching
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Requirments
+* Node.js 18.x
+* npm 9.x
 
-## Expanding the ESLint configuration
+### Steps
+* git clone <link_to_repository>
+* cd <folder_name>
+* npm install
+* npm start
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Link
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+https://dwra3.netlify.app/
