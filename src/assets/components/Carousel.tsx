@@ -20,7 +20,7 @@ function Carousel({ items }: { items: CarouselItemData[] }) {
                 </div>))}
             </div>
         </div>
-        
+
     )
 }
 
