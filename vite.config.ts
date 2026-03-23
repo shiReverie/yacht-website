@@ -8,5 +8,6 @@ export default defineConfig({
     plugins: [plugin(), tailwindcss(), TanStackRouterVite()],
     server: {
         port: 56656,
-    }
+    },
+    base: '/',
 })

@@ -1,6 +1,12 @@
 import CarouselItem from './CarouselItem.tsx'
 
-function Carousel({ items = [] }) {
+interface CarouselItemData {
+    id: number;
+    image: string;
+    itemName: string;
+    description: string;
+}
+function Carousel({ items }: { items: CarouselItemData[] }) {
 
     return (
         <div className="relative md:w-full col-span-full xs:col-start-1 xs:w-200 md:col-start-5">
@@ -14,7 +20,7 @@ function Carousel({ items = [] }) {
                 </div>))}
             </div>
         </div>
-        
+
     )
 }
 

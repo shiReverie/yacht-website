@@ -7,25 +7,25 @@ import "../assets/css/Containers.css";
 const teamMembers = [
     {
         id: 1,
-        image: "../../../public/tm1.png",
+        image: "/tm1.png",
         itemName: "Ivar Mö",
         description: "Founder of the company"
     },
     {
         id: 2,
-        image: "../../../public/tm2.png",
+        image: "/tm2.png",
         itemName: "Martin Andersen",
         description: "Marketing and SEO director"
     },
     {
         id: 3,
-        image: "../../../public/tm3.png",
+        image: "/tm3.png",
         itemName: "Inge Storm",
         description: "Business developer"
     },
     {
         id: 4,
-        image: "../../../public/tm4.png",
+        image: "/tm4.png",
         itemName: "Jan Storm",
         description: "Managment"
     }
@@ -155,13 +155,13 @@ function RouteComponent() {
                 </p>
                 <div className="md:col-span-full md:grid md:grid-cols-3 lg:w-screen md:col-start-4 lg:col-start-1 mb-5 mt-5 
 xs:flex xs:flex-col xs:mt-17 xs:w-100 xs:col-start-2">
-                    <img src="../../../public/gal1.png" className="w-full object-cover aspect-square" />
-                    <img src="../../../public/gal2.png" className="w-full object-cover aspect-square" />
-                    <img src="../../../public/gal3.png" className="w-full object-cover aspect-square" />
-                    <img src="../../../public/gal4.png" className="w-full object-cover aspect-square" />
-                    <img src="../../../public/gal5.png" className="w-full object-cover aspect-square" />
-                    <img src="../../../public/gal7.png" className="w-full object-cover aspect-square" />
-                    <img src="../../../public/gal6.png" className="col-span-3 w-full object-cover object-center h-150" />
+                    <img src="/gal1.png" className="w-full object-cover aspect-square" />
+                    <img src="/gal2.png" className="w-full object-cover aspect-square" />
+                    <img src="/gal3.png" className="w-full object-cover aspect-square" />
+                    <img src="/gal4.png" className="w-full object-cover aspect-square" />
+                    <img src="/gal5.png" className="w-full object-cover aspect-square" />
+                    <img src="/gal7.png" className="w-full object-cover aspect-square" />
+                    <img src="/gal6.png" className="col-span-3 w-full object-cover object-center h-150" />
                 </div>
                 <p className="pointer-events-none xs:col-start-2 md:col-start-7 whitespace-nowrap text-xl text-black mb-7">
                     Discover more photos<br />
@@ -217,7 +217,7 @@ xs:flex xs:flex-col xs:mt-17 xs:w-100 xs:col-start-2">
                     and provide services at the top level.
                 </p>
                 <img
-                    src="../../../public/yacht3.png"
+                    src="/yacht3.png"
                     className="xs:col-start-2 xs:col-span-full xs:h-50 md:col-start-1 md:col-end-30 md:h-150 w-full object-cover mt-7"
                 />
             </article>
