@@ -4,7 +4,7 @@ import Carousel from '../assets/components/Carousel';
 import Footer from '../assets/components/Footer';
 import "../assets/css/Containers.css";
 
-const teamMembers = [
+const teamMembers[] = [
     {
         id: 1,
         image: "../../../public/tm1.png",
